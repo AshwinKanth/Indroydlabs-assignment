@@ -1,0 +1,72 @@
+.questionBg-container {
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 40px;
+    width: 50%;
+}
+
+.nameInput {
+    height: 30px;
+    width: 40%;
+    padding: 5px;
+    outline: none;
+}
+
+.startQuizButton {
+    height: 43px;
+    margin-left: 20px;
+    background-color: #2193eb;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+
+.enterText {
+    color: #fff;
+    font-size: 30px;
+}
+
+.nameSpan {
+    color: #f20fd0;
+}
+
+.welcomeText {
+    color: #fff;
+    font-size: 30px;
+}
+
+.question {
+    color: #fff;
+    font-size: 22px;
+}
+
+.options-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.option {
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+
+}
+
+.label {
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
